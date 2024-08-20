@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="grid">
+    <div class="subscribe">
+      <div class="message-list"></div>
+      <input type="text" id="message-line" required>
+    </div>
+    <div class="add-geo-window hidden">
+      <span>Что-то пошло не так</span>
+      <span>К сожалению, нам не удалось определить ваше местоположение, пожалуйста, дайте разрешение на использование геолокации, либо введите координаты вручную.</span>
+      <span>Широта и долгота через запятую</span>
+      <input type="text" id="geo" required>
+      <div class="button-container">
+        <button class="cancel button">Отмена</button>
+        <button class="ok button">ОК</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
